@@ -22,3 +22,11 @@
     <button onclick="analyzeWebsite()">Analyze</button>
     <div id="analysisResult"></div>
 </div>
+<!-- در قسمت مناسب در فایل index.php -->
+<div id="seo-analysis-tool">
+    <h3>SEO Analysis Tool</h3>
+    <p>Enter your website URL to analyze:</p>
+    <input type="url" id="websiteUrl" placeholder="https://example.com">
+    <button onclick="analyzeWebsite()">Analyze</button>
+    <div id="analysisResult"></div>
+</div>
