@@ -1,1 +1,21 @@
-https://seokar.click
+:/*
+Theme Name: SeoKar
+Theme URI: https://seokar.click
+Description: Professional WordPress theme with SEO tools.
+Author: Your Name
+Author URI: Your Website
+Version: 1.0
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Add more styles based on your design preferences */
