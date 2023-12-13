@@ -1,0 +1,37 @@
+.mlm-notifier-container.bottom-right {bottom: 4px !important;top: auto !important;padding-bottom: 0 !important;}
+.mlm-notifier-container.bottom-left {left: 4px !important;right: auto !important;bottom: 4px !important;top: auto !important;padding-bottom: 0 !important;}
+.mlm-notifier-container.top-left {left: 4px !important;right: auto !important;} 
+.mlm-notifier-container.bottom-left .notifier,.mlm-notifier-container.top-left .notifier{direction: ltr;-webkit-transform:translateX(-100%);-moz-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);border-right-width: 4px;border-left: 0;}
+.mlm-notifier-container.bottom-right .notifier,.mlm-notifier-container.top-right .notifier{direction: rtl;-webkit-transform:translateX(100%);-moz-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);}
+.mlm-notifier-container.bottom-right .notifier button.notifier-close,.mlm-notifier-container.top-right .notifier button.notifier-close{left: 4px;right: auto;}
+.mlm-notifier-container .notifier-text-wrapper {margin-bottom: 0 !important;display: flex;flex-direction: column;justify-content: center;max-width: calc(100% - 60px);padding-right: 5px;}
+.mlm-notifier-container .null-icon .notifier-text-wrapper {max-width: 100%;margin: 0;}
+.mlm-notifier-container {padding: 35px 10px !important;}
+.mlm-notifier-container .notifier {display: flex;}
+.mlm-notifier-container{/*display: none;*/z-index:9999;position:fixed;top:4px;right:4px;padding:4px;width:0;max-width:98%;font-family:"Segoe UI",Tahoma,Calibri,Verdana,sans-serif;color:#999;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+.mlm-notifier-container *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+.mlm-notifier-container .notifier:before {width: 100%;transform: translateX(-100%);content: "";position: absolute;top: 0;background: #aaa;height: 3px;left: 0;}
+.mlm-notifier-container .notifier {overflow: hidden;}
+.mlm-notifier-container .notifier.shown:before{transform: translateX(0);transition: attr(data-time-line);}
+.mlm-notifier-container .notifier{position:relative;width:100%;min-height:62px;margin-bottom:12px;padding:8px;background:#fff;box-shadow:0 1px 10px 0 rgba(0,0,0,.1),0 2px 15px 0 rgba(0,0,0,.05);opacity:0;-webkit-transition:all .6s cubic-bezier(.5,-.5,.3,1.4),opacity .6s ease;-moz-transition:all .6s cubic-bezier(.5,-.5,.3,1.4),opacity .6s ease;-ms-transition:all .6s cubic-bezier(.5,-.5,.3,1.4),opacity .6s ease;transition:all .6s cubic-bezier(.5,-.5,.3,1.4),opacity .6s ease}
+.mlm-notifier-container .notifier.shown{opacity:1;-webkit-transform:translateX(0) !important;-moz-transform:translateX(0) !important;-ms-transform:translateX(0) !important;transform:translateX(0) !important}
+.mlm-notifier-container .notifier.shown:hover{opacity:1}
+.mlm-notifier-container .notifier-close{margin: 3px !important;
+    min-height: auto;
+    line-height: 20px;position:absolute;top:4px;right:4px;width:16px;height:16px;padding:0;text-align:center;text-decoration:none;color:#aaa;font-weight:700;font-size:16px;background:0 0;outline:0;border:none;border-radius:50%;cursor:pointer;opacity:.5;-webkit-transition:.3s ease;-moz-transition:.3s ease;-ms-transition:.3s ease;transition:.3s ease}
+.mlm-notifier-container .notifier-close:focus,.notifier-close:hover{opacity:1;color:#999;background:#eee}
+.mlm-notifier-container .notifier-img{flex-basis:48px;float:left;margin-right:8px;vertical-align:middle;justify-content: center;display: flex;flex-direction: column;}
+.mlm-notifier-container .notifier-title{color:#5a5a5a !important;margin:0 0 4px;padding:0;font-size:16px;font-weight:bold}
+.mlm-notifier-container .notifier-body{font-size:13px;padding: 8px 4px;}
+.mlm-notifier-container .notifier.info{border-left-color:#3498db}
+.mlm-notifier-container .notifier.success{border-left-color:#1abc9c}
+.mlm-notifier-container .notifier.warning{border-left-color:#f1c40f}
+.mlm-notifier-container .notifier.danger{border-left-color:#e74c3c}
+.mlm-notifier-container .notifier-img img {
+    width: auto !important;
+    max-width: 60px !important;
+    height: auto !important;
+    max-height: 60px !important;
+    width:48px;
+    height:48px;
+}

@@ -1,0 +1,876 @@
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/**
+ * Date picker
+ */
+.ui-datepicker {
+	display: none;
+	width: 240px;
+	margin-top: 4px;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #eee;
+	border-radius: 0;
+	box-shadow: 0 3px 15px rgba( 0, 0, 0, 0.07 );
+	z-index: 100!important;
+}
+
+.ui-datepicker a,
+.ui-datepicker a:hover {
+	color: #6c757d;
+	text-decoration: none;
+	-webkit-transition: color 0.1s ease-in-out;
+	-moz-transition: color 0.1s ease-in-out;
+	-o-transition: color 0.1s ease-in-out;
+	transition: color 0.1s ease-in-out;
+}
+
+.ui-datepicker a:hover,
+.ui-datepicker td:hover a {
+	color: #007bff;
+}
+
+.ui-datepicker .ui-datepicker-header {
+	padding: 4px 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+	float: right;
+	text-align: right;
+	cursor: pointer;
+}
+
+.ui-datepicker .ui-datepicker-next {
+	float: left;
+	text-align: left;
+	cursor: pointer;
+}
+
+.ui-datepicker .ui-datepicker-calendar {
+	table-layout: fixed;
+	width: 100%;
+	border-color: #f1f1f1;
+}
+
+.ui-datepicker .ui-datepicker-calendar th,
+.ui-datepicker .ui-datepicker-calendar td {
+	text-align: center;
+	padding: 4px 0;
+	font-size: 12px;
+	border-color: #f1f1f1;
+}
+
+.ui-datepicker .ui-datepicker-calendar td {
+	border-radius: 0;
+	-webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	-moz-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	-o-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+
+.ui-datepicker .ui-datepicker-calendar td:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+
+.ui-datepicker .ui-datepicker-calendar td a {
+	text-decoration: none;
+}
+
+.ui-datepicker .ui-datepicker-current-day {
+	color: #fff;
+	background-color: #007bff;
+}
+.ui-datepicker .ui-datepicker-current-day a {
+	color: #fff
+}
+
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable:hover {
+	background-color: #fff;
+	cursor: default;
+}
+
+.ui-datepicker .ui-state-disabled {
+	color: #eee;
+}
+
+select.ui-datepicker-month,
+select.ui-datepicker-year {
+	width: 75px!important;
+	display: inline-block!important;
+	font-size: 11px!important;
+	padding: 0!important;
+	line-height: 20px!important;
+	height: 20px!important;
+}
+
+select.ui-datepicker-year {
+	float: right;
+	margin-right: 10px;
+}
+
+select.ui-datepicker-month {
+	float: left;
+	margin-left: 10px;
+}
+
+/**
+ * ALERTS
+ */
+.mlm_alert {
+	clear: both;
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.mlm_alert > p,
+.mlm_alert > ul {
+	margin-bottom: 0;
+}
+
+.mlm_alert > p + p {
+	margin-top: 5px;
+}
+
+.alert-success {
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	color: #3c763d;
+}
+
+.alert-info {
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+	color: #31708f;
+}
+
+.alert-warning {
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+	color: #8a6d3b;
+}
+
+.alert-danger {
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	color: #a94442;
+}
+
+/**
+ * TABLES
+ */
+.mlm-table i.dashicons {
+	float: left;
+	margin-right: 5px;
+}
+
+.mlm-table thead tr th {
+	border-left: 1px solid #e1e1e1;
+}
+
+.mlm-table thead tr th:last-child {
+	border-left: 0;
+}
+
+/**
+ * FILTERS
+ */
+.mlm-filter-bar-wrapper {
+	position: relative;
+	margin: 10px 0 20px;
+	padding: 10px;
+	background: #fff;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+
+.mlm-filter-bar-wrapper .ucdebir {
+    display: block;
+	float: right;
+	position: relative;
+    width: 33.33%;
+	margin: 5px 0;
+	padding: 0 8px;
+	text-align: right;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.mlm-filter-bar-wrapper .ucdebir label {
+	font-weight: bold;
+}
+
+.mlm-filter-bar-wrapper .ucdebir input,
+.mlm-filter-bar-wrapper .ucdebir select {
+	max-width: 100%;
+}
+
+.mlm-filter-bar-wrapper .ucdebir input[type="submit"] {
+    margin: 19px 0 0;
+    width: 100%;
+}
+
+/**
+ * Metaboxes
+ */
+.mlm-image {
+    display: block;
+    position: relative;
+	margin: 5px 0;
+}
+
+.mlm-image > img {
+	display: block;
+	width: auto;
+	height: auto;
+	max-height: 120px;
+	max-width: 100%;
+}
+
+/**
+ * TICKETS
+ */
+.mlm-tickets-wrap .panel-box {
+    position: relative;
+	padding: 15px;
+	margin: 0 0 15px;
+	background: #fff;
+}
+
+.mlm-tickets-wrap .panel-box .box-title {
+    margin: 0 0 15px;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.mlm-tickets-wrap .panel-box .box-title > .title {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.mlm-tickets-wrap .table .badge,
+.mlm-ticket-content .ticket-header .meta .badge {
+    display: block;
+    text-align: center;
+    padding: 1px 4px;
+    margin: 3px auto;
+    font-size: 12px;
+    background: #70c149;
+    border-radius: 20px;
+    max-width: 100px;
+    color: #fff;
+}
+
+.mlm-tickets-wrap .table .badge.badge-secondary,
+.mlm-ticket-content .ticket-header .meta .badge.badge-secondary {
+	background: #eb4d32;
+}
+
+.mlm-tickets-wrap .table .badge.badge-success,
+.mlm-ticket-content .ticket-header .meta .badge.badge-success {
+	background: #00bff3;
+}
+
+.mlm-tickets-wrap .table .badge.badge-warning,
+.mlm-ticket-content .ticket-header .meta .badge.badge-warning {
+	background: #ffda31;
+}
+
+.mlm-tickets-wrap .mlm-filter-bar > a {
+    display: block;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    width: auto;
+}
+
+.mlm-ticket-content {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.mlm-ticket-content .ticket-header {
+    display: block;
+    margin: 0 0 30px;
+}
+
+.mlm-ticket-content .ticket-header .user {
+    display: block;
+    text-align: center;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+.mlm-ticket-content .ticket-header .user > img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 5px;
+    padding: 2px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.mlm-ticket-content .ticket-header .user > span {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.mlm-ticket-content .ticket-header .ticket-related-product {
+	margin: 15px 0;
+}
+
+.mlm-ticket-content .ticket-header .meta {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    margin: 0 0 15px;
+    padding: 0;
+    background: #fafafa;
+}
+
+.mlm-ticket-content .ticket-header .meta > .item {
+	display: block;
+	float: right;
+	width: 33.33%;
+	margin: 0;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.mlm-ticket-content .ticket-header .meta > .item > .t {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.mlm-ticket-content .ticket-header .meta > .item > .v {
+	display: block;
+	text-align: center;
+}
+
+.mlm-ticket-content .ticket-header .meta > .item > .v.date {
+	line-height: 32px;
+}
+
+.mlm-ticket-content .ticket-header .desc {
+	text-align: justify;
+}
+
+.mlm-ticket-content .attach {
+    margin: 10px 0 0;
+    padding: 8px 15px;
+    background: #fafafa;
+    border: 1px dashed #ccc;
+}
+
+.mlm-ticket-content .attach .button {
+	margin: 0;
+	font-size: 12px;
+	padding: 2px 10px;
+	margin: 5px 0 5px 5px;
+}
+
+.mlm-ticket-content .attach p.no-attach {
+	margin: 0;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.mlm-ticket-content .ticket-reply {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    margin: 0 0 30px;
+}
+
+.mlm-ticket-content .ticket-reply:last-child {
+	margin: 0;
+}
+
+.mlm-wallet-wrap .deleting,
+.mlm-ticket-content .ticket-header.deleting,
+.mlm-ticket-content .ticket-header.deleting .meta,
+.mlm-ticket-content .ticket-reply.deleting {
+    background: #ffe6e6;
+}
+
+.mlm-ticket-content .ticket-reply .top-bar {
+    display: block;
+    overflow: hidden;
+    padding: 5px;
+    color: #fff;
+    background: #28a745;
+}
+
+.mlm-ticket-content .ticket-reply .top-bar .user {
+    float: right;
+}
+
+.mlm-ticket-content .ticket-reply .top-bar .user > img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-left: 8px;
+}
+
+.mlm-ticket-content .ticket-reply .top-bar .user > .nm {
+    display: block;
+    float: right;
+    font-weight: bold;
+}
+
+.mlm-ticket-content .ticket-reply .top-bar .user .dt {
+    display: block;
+    clear: both;
+    font-weight: normal;
+    font-size: 11px;
+    color: #eee;
+    margin-top: 6px;
+}
+
+.mlm-ticket-content .ticket-reply .top-bar .delete {
+    float: left;
+    margin: 8px 10px 0 8px;
+    font-size: 12px;
+}
+
+.mlm-filter-bar > a.red,
+.mlm-ticket-content .ticket-reply .top-bar .delete .red {
+    background: #fff;
+	display: block;
+}
+
+.mlm-filter-bar > a.red:hover,
+.mlm-filter-bar > a.red:focus,
+.mlm-ticket-content .ticket-reply .top-bar .delete .red:hover,
+.mlm-ticket-content .ticket-reply .top-bar .delete .red:focus {
+    background: #eb4d32;
+    color: #fff;
+	border: 1px solid #bf3b24;
+}
+
+.mlm-ticket-content .ticket-reply .reply-text {
+    display: block;
+    overflow: hidden;
+    padding: 0 15px;
+    text-align: justify;
+    border: 1px solid #eee;
+    border-top: 0;
+}
+
+.mlm-reply-wrapper {
+	margin: 0;
+	padding: 15px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+}
+
+/**
+ * NOTIFICATION BUBBLE
+ */
+#wpadminbar .mlm-toolbar-bubble .cnt {
+	display: inline-block;
+    vertical-align: middle;
+    margin: 1px 2px 0 0;
+    padding: 0 5px;
+    min-width: 7px;
+    height: 17px;
+    border-radius: 11px;
+    background-color: #ca4a1f;
+    color: #fff;
+    font-size: 9px;
+    line-height: 17px;
+    text-align: center;
+    z-index: 26;
+}
+
+/**
+ * MODAL
+ */
+.iziModal-rtl .iziModal-header-buttons {
+    right: auto;
+    left: 10px;
+}
+
+.iziModal-rtl .iziModal-header.iziModal-noSubtitle {
+    padding: 10px 15px 12px 40px !important;
+}
+
+.iziModal-rtl .iziModal-header-subtitle,
+.iziModal-rtl .iziModal-header-title {
+    text-align: right;
+}
+
+.iziModal-rtl .iziModal-header.iziModal-noSubtitle .iziModal-header-buttons {
+    right: auto;
+    left: 6px;
+}
+
+.iziModal.isFullscreen {
+	z-index: 99999 !important;
+}
+
+/**
+ * FORMS
+ */
+@-webkit-keyframes pace-spinner {
+	0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-moz-keyframes pace-spinner {
+	0% { -moz-transform: rotate(0deg); transform: rotate(0deg); }
+	100% { -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-o-keyframes pace-spinner {
+	0% { -o-transform: rotate(0deg); transform: rotate(0deg); }
+	100% { -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-ms-keyframes pace-spinner {
+	0% { -ms-transform: rotate(0deg); transform: rotate(0deg); }
+	100% { -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@keyframes pace-spinner {
+	0% { transform: rotate(0deg); transform: rotate(0deg); }
+	100% { transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+form.loading {
+	position: relative;
+}
+
+form.loading:before {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background: rgba( 0, 0, 0, 0.3);
+	border-radius: .25rem;
+	z-index: 99;
+}
+
+form.loading:after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	margin-right: -1.5em;
+	margin-top: -1.5em;
+	width: 3rem;
+	height: 3rem;
+	border: .25em solid #fff;
+	border-right-color: transparent;
+	border-radius: 50%;
+	-webkit-animation: pace-spinner .75s linear infinite;
+	animation: pace-spinner .75s linear infinite;
+	z-index: 100;
+}
+
+.button-block {
+	display: block;
+	width: 100%;
+}
+
+#mlm_course_metabox .kapa {
+	display: none;
+}
+
+.mlm-form-group {
+	display: block;
+	margin: 0 0 10px;
+}
+
+.mlm-form-group label {
+	display: block;
+	margin: 0 0 5px;
+	color: #000;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+.mlm-form-group label .red {
+	color: #cc3333;
+}
+
+.mlm-course-chapters-wrapper .chapter-item {
+	overflow: hidden;
+	position: relative;
+	margin: 0 0 15px;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #e6e8fd;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.08), 0 1px 2px 0 rgba(0,0,0,.05);
+	-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.08), 0 1px 2px 0 rgba(0,0,0,.05);
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.08), 0 1px 2px 0 rgba(0,0,0,.05);
+}
+
+.mlm-course-chapters-wrapper .chapter-item .chapter-image {
+	float: right;
+	width: 64px;
+	height: 64px;
+	margin: 5px 0 5px 10px;
+}
+
+.mlm-course-chapters-wrapper .chapter-item .chapter-title {
+	display: block;
+	margin-bottom: 5px;
+	color: #000;
+	font-weight: 600;
+}
+
+.mlm-course-chapters-wrapper .chapter-item .chapter-text {
+	display: block;
+	margin-bottom: 10px;
+	color: #666;
+	font-size: 12px;
+}
+
+.mlm-course-chapters-wrapper .chapter-item .chapter-option a,
+.mlm-course-chapters-wrapper .chapter-item .lesson-option a {
+	display: inline-block;
+	padding: 1px 7px;
+	color: #fff;
+	background-color: #795548;
+	border: 1px solid #795548;
+	font-size: 11px;
+	text-decoration: none;
+	border-radius: 5px;
+	opacity: 1;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.mlm-course-chapters-wrapper .chapter-item .chapter-option .artir,
+.mlm-course-chapters-wrapper .chapter-item .lesson-option .artir {
+	color: #fff;
+	background-color: #4CAF50;
+	border-color: #4CAF50;
+}
+
+.mlm-course-chapters-wrapper .chapter-item .chapter-option .sil,
+.mlm-course-chapters-wrapper .chapter-item .lesson-option .sil {
+	color: #fff;
+	background-color: #cc3333;
+	border-color: #cc3333;
+}
+
+.mlm-course-chapters-wrapper .chapter-item .chapter-option a:hover,
+.mlm-course-chapters-wrapper .chapter-item .lesson-option a:hover {
+	opacity: 0.8;
+}
+
+.mlm-course-chapters-wrapper .mlm-lessons-wrapper {
+	clear: both;
+	margin: 15px 0 0;
+}
+
+.mlm-lessons-wrapper .lesson-item {
+	overflow: hidden;
+	margin: 0;
+	padding: 10px;
+	border-top: 1px solid #e6e8fd;
+}
+
+
+.mlm-lessons-wrapper .lesson-item .lesson-title {
+	color: #000;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 28px;
+}
+
+.mlm-lessons-wrapper .lesson-item .lesson-text {
+	color: #666;
+	font-size: 10px;
+	line-height: 28px;
+}
+
+.mlm-lessons-wrapper .lesson-item .lesson-content,
+.mlm-lessons-wrapper .lesson-item .lesson-links {
+	display: none;
+}
+
+.mlm-course-chapters-wrapper .chapter-item .lesson-option {
+	float: left;
+	margin: 5px 10px 5px 0;
+}
+
+.mlm-course-lesson-box-wrap {
+	display: none;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.mlm-course-lesson-box-wrap.show {
+	display: block;
+}
+
+/**
+ * Custom Fileds
+ */
+.mlm-custom-fields .mlm-fields-template {
+    display: block;
+    margin: 0 0 10px;
+    color: #444;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.mlm-custom-fields .mlm-fields-template .top {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.mlm-custom-fields .mlm-fields-template .top .title {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 26px;
+}
+
+.mlm-custom-fields .mlm-fields-template .top .btn {
+	float: left;
+	padding: 3px 6px;
+	color: #fff;
+	background-color: #4CAF50;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.mlm-custom-fields .mlm-fields-template .top .btn:focus {
+	outline: 0;
+	box-shadow: none;
+}
+
+.mlm-custom-fields .mlm-fields-template .top .mlm-delete-btn {
+	margin-right: 5px;
+	color: #fff;
+	background: #cc3333;
+}
+
+.mlm-custom-fields .mlm-fields-template .bottom {
+	padding: 15px;
+}
+
+.mlm-custom-fields .mlm-fields-template:not(.open) .bottom {
+	display: none;
+}
+
+.mlm-custom-fields .mlm-fields-template .mlm-form-group {
+    display: block;
+    margin: 0 0 15px;
+}
+
+.mlm-custom-fields .mlm-fields-template .mlm-form-group label {
+    display: block;
+    margin: 0 0 5px;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.mlm-custom-fields .mlm-fields-template .mlm-form-group input,
+.mlm-custom-fields .mlm-fields-template .mlm-form-group select {
+	width: 100%;
+	max-width: 100%;
+}
+
+#mlm-attach-ticket-wrap .thumb-box {
+    position: relative;
+    margin: 0 0 10px;
+    padding: 10px;
+    min-height: 70px;
+    background: #fafafa;
+    border: 2px dashed #ddd;
+}
+
+#mlm-attach-ticket-wrap .thumb-box > a {
+    display: block;
+	position: relative;
+    width: 64px;
+    height: 64px;
+    float: right;
+    margin: 3px;
+    padding: 0;
+}
+
+#mlm-attach-ticket-wrap .thumb-box > a > img {
+	width: 100%;
+	height: 100%;
+}
+
+#mlm-attach-ticket-wrap .thumb-box > a > .remove {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #c33;
+    font-size: 20px;
+    line-height: 64px;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    background: rgba(255,255,255,0.8);
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+}
+
+#mlm-attach-ticket-wrap .thumb-box > a:hover > .remove {
+	opacity: 1;
+	filter: alpha(opacity = 100);
+}
+
+@media screen and (max-width:768px){
+	#mlm_settings_wrapper div#of-nav {
+    width: 100% !important;
+	}
+	#mlm_settings_wrapper #of-nav{
+		position: relative !important;
+	}
+	#mlm_settings_wrapper div#content {
+		width: 100% !important;
+		margin: 20px 0 !important;
+	}
+}

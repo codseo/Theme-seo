@@ -1,38 +1,11 @@
-:/*
-Theme Name: SeoKar
-Theme URI: https://seokar.click
-Description: Professional WordPress theme with SEO tools.
-Author: Your Name
-Author URI: Your Website
-Version: 1.0
-*/
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-/* Add more styles based on your design preferences */
-
-/* در قسمت مناسب در فایل style.css */
-#seo-analysis-tool {
-    margin-top: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
-}
-
-#websiteUrl {
-    width: 80%;
-    padding: 8px;
-}
-
-button {
-    padding: 8px;
-    cursor: pointer;
-}
+/**
+	Theme Name: seokar
+	Theme URI: https: https://seokar.click
+	Description: search engine optimization
+	Version: 1.2
+	Author: sajjadakbari
+	Author URI: https://seokar.click
+	License: Featured license.
+	License URI: https://seokar.click
+	Text Domain: seo
+**/

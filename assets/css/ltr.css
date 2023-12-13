@@ -1,0 +1,675 @@
+body {
+    direction: ltr;
+	text-align: left;
+}
+
+th,
+td {
+    border-right-width: 1px;
+	border-left-width: 0;
+	border-top-width: 0;
+	text-align: left;
+}
+
+th:last-child,
+td:last-child {
+    border-left-width: 1px;
+	border-right-width: 0;
+}
+
+
+/**
+ * SWEET ALERT
+ */
+.swal-footer {
+    text-align: right !important;
+}
+
+.swal-text {
+	text-align: left !important;
+}
+
+/**
+ * PACE
+ */
+
+
+/**
+ * BOOTSTRAP
+ */
+.nav {
+    padding-right: inherit;
+    padding-left: 0;
+}
+
+.navbar-nav {
+	padding-right: inherit;
+    padding-left: 0;
+}
+
+.list-inline-item:not(:last-child) {
+	margin-right: .5rem;
+	margin-left: 0;
+}
+
+.btn-group>.btn-group:not(:last-child)>.btn,
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle),
+.input-group>.custom-select:not(:last-child),
+.input-group>.form-control:not(:last-child) {
+	border-top-left-radius: .25rem;
+	border-bottom-left-radius: .25rem;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.btn-group>.btn-group:not(:first-child)>.btn,
+.btn-group>.btn:not(:first-child),
+.input-group>.input-group-append>.btn,
+.input-group>.input-group-append>.input-group-text,
+.input-group>.input-group-prepend:first-child>.btn:not(:first-child),
+.input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child),
+.input-group>.input-group-prepend:not(:first-child)>.btn,
+.input-group>.input-group-prepend:not(:first-child)>.input-group-text {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: .25rem;
+	border-bottom-right-radius: .25rem;
+}
+
+.mlm-rounded.btn-group>.btn-group:not(:last-child)>.btn,
+.mlm-rounded.btn-group>.btn:not(:last-child):not(.dropdown-toggle),
+.mlm-rounded.input-group>.custom-select:not(:last-child),
+.mlm-rounded.input-group>.form-control:not(:last-child) {
+	border-top-left-radius: 50rem;
+	border-bottom-left-radius: 50rem;
+    border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.mlm-rounded.btn-group>.btn-group:not(:first-child)>.btn,
+.mlm-rounded.btn-group>.btn:not(:first-child),
+.mlm-rounded.input-group>.input-group-append>.btn,
+.mlm-rounded.input-group>.input-group-append>.input-group-text,
+.mlm-rounded.input-group>.input-group-prepend:first-child>.btn:not(:first-child),
+.mlm-rounded.input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child),
+.mlm-rounded.input-group>.input-group-prepend:not(:first-child)>.btn,
+.mlm-rounded.input-group>.input-group-prepend:not(:first-child)>.input-group-text {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+    border-top-right-radius: 50rem;
+	border-bottom-right-radius: 50rem;
+}
+
+.input-group-append .btn+.btn,
+.input-group-append .btn+.input-group-text,
+.input-group-append .input-group-text+.btn,
+.input-group-append .input-group-text+.input-group-text,
+.input-group-prepend .btn+.btn,
+.input-group-prepend .btn+.input-group-text,
+.input-group-prepend .input-group-text+.btn,
+.input-group-prepend .input-group-text+.input-group-text,
+.input-group-append {
+    margin-left: -1px;
+    margin-right: 0;
+}
+
+.alert-dismissible {
+    padding-left: 1.25rem;
+    padding-right: 4rem;
+}
+
+.alert-dismissible .close {
+    right: 0;
+    left: auto;
+}
+
+.dropdown-menu {
+    left: 0;
+    right: auto;
+    float: left;
+    text-align: left;
+}
+
+.dropdown-toggle::after {
+	margin-right: 0;
+	margin-left: .255em;
+}
+
+.modal-footer>:not(:last-child) {
+	margin-left: 0;
+	margin-right: .25rem;
+}
+
+.form-check {
+	padding-right: 0;
+	padding-left: 1.25rem;
+}
+
+.form-check-inline {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: .75rem;
+}
+
+.form-check-input {
+    margin-right: 0;
+    margin-left: -1.25rem;
+}
+
+.form-check-inline .form-check-input {
+    margin-right: .3125rem;
+    margin-left: 0;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+	padding-right: 0;
+	padding-left: .5rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+	padding-left: 0;
+	padding-right: .5rem;
+}
+
+/**
+ * COMMENTS
+ */
+.mlm-comments-box .comment-list .children {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 15px 0 15px 15px;
+}
+
+.mlm-comments-box .comment-list .comment-author .avatar {
+	float: left;
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+.mlm-comments-box .comment-nav .comment-nav-prev {
+	float: left;
+}
+
+.mlm-comments-box .comment-nav .comment-nav-next {
+	float: right;
+}
+
+/**
+ * HEADER
+ */
+.mlm-header .mlm-ajax-search .input-group>.form-control:not(:last-child) {
+	border-top-left-radius: 50rem;
+	border-bottom-left-radius: 50rem;
+    border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.mlm-header .mlm-ajax-search .input-group>.input-group-append>.btn {
+	border-top-right-radius: 50rem;
+	border-bottom-right-radius: 50rem;
+    border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.mlm-header .notification-btn.new-note:before {
+    left: 3px;
+	right: auto;
+}
+
+.mlm-header .mlm-top-nav .nav-link.icon:before {
+    right: 10px;
+	left: auto;
+}
+
+
+.mlm-header .mlm-main-nav > li.menu-item-has-children>a:after {
+    margin-left: 8px;
+	margin-right: 0;
+	float: right;
+}
+
+.mlm-header .mlm-main-nav ul.sub-menu {
+    left: 0;
+	right: auto;
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+
+.mlm-header .mlm-main-nav ul.sub-menu:before {
+    left: 30px;
+    right: auto;
+    float: left;
+}
+
+.mlm-header .mlm-main-nav ul.sub-menu ul.sub-menu {
+    left: 100%;
+	right: auto;
+}
+
+.mlm-header .mlm-main-nav ul.sub-menu > li.menu-item-has-children > a:after {
+    margin-left: 8px;
+	margin-right: 0;
+    float: right;
+}
+
+/* MEGA MENU */
+.mlm-header .mlm-main-nav > li.this-is-mega-menu > ul.sub-menu > li {
+	float: left;
+}
+
+.mlm-header .mlm-main-nav > li.this-is-mega-menu > ul.sub-menu > li > .sub-menu {
+    left: 0;
+	right: auto;
+}
+
+.mlm-header .mlm-main-nav > li.this-is-mega-menu a.icon {
+    padding-left: 44px;
+	padding-right: 0;
+}
+
+.mlm-header .mlm-main-nav > li.this-is-mega-menu a.icon:before {
+    left: 0;
+	right: auto;
+}
+
+/* CART BUTTON */
+.mlm-header .mlm-main-nav a.mlm-cart-btn .quantity {
+    left: 50%;
+	right: auto;
+    margin-left: -10px;
+	margin-right: 0;
+}
+
+.mlm-header .mlm-main-nav a.mlm-cart-btn .quantity:after {
+    float: left;
+}
+
+/* TOGGLE BTN */
+.mlm-header .toggle-quru span::before,
+.mlm-header .toggle-quru span::after {
+    right: 0;
+	left: auto;
+}
+
+/**
+ * MOBILE MENU
+ */
+#mlm-mobile-menu {
+    left: -250px;
+    right: auto;
+    border-right: 1px solid #eeffff;
+	border-left: 0;
+}
+
+#mlm-mobile-menu.open  {
+    left: 0;
+	right: auto;
+}
+
+.mlm-mobile-nav .drilldown-root li.icon {
+    padding-left: 30px;
+	padding-right: 0;
+}
+
+.mlm-mobile-nav .drilldown-root li.icon:before {
+    left: 0;
+	right: auto;
+}
+
+.mlm-mobile-nav .drilldown-root li a:before {
+	float: left;
+	margin: 0 0 0 5px;
+}
+
+.mlm-mobile-nav .drilldown-root li.menu-item-has-children>a:hover:after {
+    right: 5px;
+	left: auto;
+}
+
+/**
+ * BOXES
+ */
+.mlm-box-title:not(.icon):after {
+	float: right;
+	margin: 20px 0 0 15px;
+}
+
+.mlm-box-title.sm:not(.icon):after {
+	margin: 15px 0 0 10px;
+}
+
+.mlm-box-title.icon:before {
+	float: left;
+    margin-right: 10px;
+	margin-left: 0;
+}
+
+/**
+ * MAIN SEARCH
+ */
+.mlm-main-search .mlm-cat-item .icon {
+    border-right: 5px dotted #e8eef3;
+	border-left: 0;
+}
+
+/**
+ * ARCHIVE
+ */
+.mlm-archive .mlm-product .item-header .vip {
+    right: 15px;
+	left: auto;
+}
+
+.mlm-archive .mlm-product .item-header .off {
+	left: 15px;
+	right: auto;
+}
+
+.mlm-archive .mlm-product .item-meta.icon:before {
+	float: left;
+    margin-right: 5px;
+	margin-left: 0;
+}
+
+/**
+ * FOOTER
+ */
+.mlm-footer-widget .widget-title:not(.icon):after {
+	margin: 11px 0 0 10px;
+}
+
+/**
+ * MODAL LOGIN
+ */
+#mlm-login-register-popup .close {
+    right: 20px;
+	left: auto;
+}
+
+#mlm-login-register-popup .mlm-popup-login-cover:after {
+    right: 0;
+	left: auto;
+}
+
+/**
+ * SINGLE PRODUCT
+ */
+.mlm-product-nav .nav-pills .nav-link .icon:before {
+    right: 9px;
+	left: auto;
+}
+
+.mlm-panel-wrapper .mlm-share-btn:before,
+.mlm-single-post .mlm-share-btn:before,
+.mlm-single-product .mlm-share-btn:before {
+	float: left;
+	margin: 0 4px 0 0;
+}
+
+.mlm-panel-wrapper .mlm-share-dropdown .icon:before,
+.mlm-single-post .mlm-share-dropdown .icon:before,
+.mlm-single-product .mlm-share-dropdown .icon:before {
+    right: 6px;
+	left: auto;
+}
+
+.mlm-rating-box .stars-group > label:before {
+    margin-right: 3px;
+	margin-left: 0;
+}
+
+.mlm-rating-box .stars-group > label {
+	float: left;
+}
+
+.mlm-single-post .mlm-post-tags a:not(.btn),
+.mlm-single-product .mlm-post-tags a:not(.btn) {
+    margin: 0 2px 2px 0;
+}
+
+.mlm-single-post .mlm-post-tags a.btn,
+.mlm-single-product .mlm-post-tags a.btn {
+    right: 5px;
+	left: auto;
+}
+
+.mlm-product-gallery-widget img {
+    left: 0;
+	right: auto;
+}
+
+.mlm-archive .mlm-product .item-vendor.verified,
+.mlm-product-vendor-widget .vendor-name .verified {
+    padding-right: 30px;
+	padding-left: 0;
+    background-position: right center;
+}
+
+.mlm-archive .mlm-product .item-vendor.verified {
+    padding-right: 20px;
+	padding-left: 0;
+}
+
+/**
+ * COURSE CHAPTERS
+ */
+.mlm-course-chapters-widget .chapter-header .icon {
+    right: 10px;
+	left: auto;
+}
+
+/**
+ * VENDOR PAGE
+ */
+.mlm-vendor-box .vendor-cover .mlm-vendor-social-nav {
+    right: 10px;
+	left: auto;
+}
+
+/**
+ * USER PANEL
+ */
+.mlm-user-panel-widget .panel-nav .icon:before {
+	float: left;
+    margin-right: 5px;
+	margin-left: 0;
+}
+
+.mlm-user-panel-widget .panel-nav .multi > a:after {
+	float: right;
+    margin-left: 5px;
+	margin-right: 0;
+}
+
+/* social */
+.mlm-panel-social-icons .icon-telegram:before,
+.mlm-panel-social-icons .icon-instagram:before {
+	float: left;
+    margin-right: 5px;
+	margin-left: 0;
+}
+
+
+/* tickets */
+.mlm-ticket-content .ticket-reply .top-bar .date {
+    margin: 8px 0 8px 10px;
+}
+
+.ticket-attaches-placeholder > a {
+    float: left;
+}
+
+/**
+ * COUNTDOWN
+ */
+.counter-box {
+    padding-left: 40px;
+	padding-right: 0;
+}
+
+.counter-box .icon {
+    left: 15px;
+	right: auto;
+}
+
+.mlm-countdown .countdown-section {
+	border-left: 1px dashed #f8f9fa;
+    border-right: 0;
+}
+
+.mlm-countdown .countdown-section:first-child {
+    border-left: 0;
+}
+
+/**
+ * WIDGETS
+ */
+.mlm-widget .widget-title:not(.icon):after {
+	float: right;
+}
+
+.mlm-contact-widget .icon:before {
+	float: left;
+    margin-right: 10px;
+	margin-left: 0;
+}
+
+.mlm-offers-slider-wrapper .swiper-button-next,
+.mlm-offers-slider-wrapper .swiper-button-prev {
+	left: 10px;
+	right: auto;
+}
+
+.mlm-offers-slider-wrapper .swiper-button-prev {
+    left: 55px;
+}
+
+.mlm-offers-slider-wrapper .swiper-button-next .icon,
+.mlm-offers-slider-wrapper .swiper-button-prev .icon {
+    -webkit-mask-image: url(../img/icon-left.svg);
+	mask-image: url(../img/icon-left.svg);
+}
+
+.mlm-offers-slider-wrapper .swiper-button-prev .icon {
+    -webkit-mask-image: url(../img/icon-right.svg);
+    mask-image: url(../img/icon-right.svg);
+}
+
+.mlm-offers-slider .mlm-product-offer .sale-badge {
+    left: 180px;
+	right: auto;
+}
+
+.mlm-offers-slider .mlm-product-offer .item-meta.icon:before {
+	float: left;
+    margin-right: 5px;
+	margin-left: 0;
+}
+
+/* CART WIDGET */
+.widget_shopping_cart .cart_list li {
+	padding-right: 2em;
+	padding-left: 0;
+}
+
+.woocommerce ul.cart_list li,
+.woocommerce ul.product_list_widget li {
+	text-align: left;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li a.remove,
+.woocommerce.widget_shopping_cart .cart_list li a.remove {
+	left: auto;
+	right: 0;
+}
+
+.woocommerce ul.cart_list li img,
+.woocommerce ul.product_list_widget li img {
+	float: left;
+	margin: 4px 4px 0 0;
+}
+
+.woocommerce ul.cart_list li .quantity {
+	float: right;
+}
+
+/**
+ * WC
+ */
+.woocommerce-account .addresses .title .edit {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.woocommerce ul.order_details li {
+    border-right: 1px dashed #007bff;
+	border-left: 0;
+}
+
+/**
+ * SEARCH PAGE
+ */
+@media( max-width: 991px ) {
+	.app-search-page-wrapper {
+        left: -250px;
+		right: auto;
+	}
+
+	.app-search-page-wrapper.open {
+        left: 0;
+		right: auto;
+	}
+}
+
+.mlm-search-page-header .search-input-group .form-control {
+	padding: 15px 0 15px 20px;
+}
+
+.mlm-filters-widget .category-item {
+    padding-right: 15px;
+	padding-left: 0;
+}
+
+.mlm-filters-widget .category-item .toggle {
+    right: 0;
+	left: auto;
+}
+
+.mlm-filters-widget .category-item .childs {
+    padding-left: 15px;
+	padding-right: 0;
+}
+
+/**
+ * NOTIFICATION
+ */
+.mlm-header .app-notification-btn {
+    margin: 0 10px 0 7px;
+}
+
+.mlm-header .app-notification-btn.al:before {
+    left: 2px;
+	right: auto;
+}
+
+.mr-auto {
+    margin-right: 0 !important;
+    margin-left: auto!important;
+}
+
+.ml-auto {
+    margin-left: 0 !important;
+    margin-right: auto!important;
+}
+
+.float-right {
+    float: left !important;
+}
+
+.float-left {
+    float: right !important;
+}

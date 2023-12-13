@@ -1,0 +1,14 @@
+/**
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (-----)
+--------------------------------------------------------------------------------------
+**/
+@font-face {
+	font-family: mlmfont;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/avini/aviny.woff') format('woff'),
+		 url('../fonts/avini/aviny.woff2') format('woff2'),
+		 url('../fonts/avini/aviny.otf') format('otf'),
+		 url('../fonts/avini/avini.ttf') format('truetype');
+}
